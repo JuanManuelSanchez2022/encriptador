@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ba6600420c.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Roboto+Mono:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encripador - Desecnriptador de texto </title>
+</head>
+
+<body>
+     <header>
+       <h1>ALURA Challenge 1</h1>
+       <h2>Encriptador - Desencriptador de texto</h2>
+     </header>
+      
+     
+   <main>
+    
+    <section  class="seccion">
+      <article class="informacion">
+        <div class="imagen"> 
+          <i class="fas fa-exclamation-triangle "></i>
+        </div>
+        <p id="letras">Solo letras minusculas, sin acentos, ni caracteres especiales</p>
+      </article>
+    
+      <article class="mensaje">
+        <h3>Ningún mensaje fue encontrado</h3>
+      </article>
+    
+      <article class="limpiar">
+        <h3 id="listo"></h3>
+        <div class="centrar">
+          <button class="boton" type="button" id="limpiar">Limpiar</button>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="seccion-1"> 
+       <article class="encriptar-desencriptar"> 
+          <textarea id="codificar" class="text-area-1" name="textArea1" 
+           placeholder="Ingresar Texto a Encriptar o Desencriptar"></textarea>
+           <div class="area-boton">
+             <button class="boton " type="button" id="encriptar">Encriptar</button>
+             <button class="boton " type="button" id="desencriptar">Desencriptar</button>
+          </div>
+        </article> 
+        <article class="imagen-principal"> 
+           <img src="./images/Muñecoimagen.svg" alt="">
+        </article> 
+      
+        <article class="muestra"> 
+          <textarea id="muestra"  class="text-area-2" name="textArea2" placeholder="" ></textarea>
+          <div class="area-boton">
+             <button class="boton copiar" type="button" id="copiar">Copiar</button>
+          </div>
+        </article>
+    </section>
+
+  </main>
+
+  <footer>
+     <a href="https://github.com/ariel-lopez-2022/Primer-proyecto-Alura" target="_blank"><i class="fab fa-github-square"></i></a>
+     
+     <h6> Sanchez Juan Manuel</h6>
+  </footer>
+
+   <script src="./js/script.js"></script> 
+  
+</body>
+</html>
